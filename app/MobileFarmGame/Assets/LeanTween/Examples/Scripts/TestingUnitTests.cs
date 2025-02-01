@@ -521,7 +521,7 @@ namespace DentedPixel.LTExamples
 
             yield return new WaitForSeconds(expectedTime);
             Time.timeScale = 1f;
-
+            #pragma warning disable
             int ltCount = 0;
             GameObject[] allGos = FindObjectsOfType(typeof(GameObject)) as GameObject[];
             foreach (GameObject go in allGos)
@@ -530,7 +530,7 @@ namespace DentedPixel.LTExamples
                     ltCount++;
             }
             LeanTest.expect(ltCount == 1, "RESET CORRECTLY CLEANS UP");
-
+            #pragma warning restore
             StartCoroutine(lotsOfCancels());
         }
 

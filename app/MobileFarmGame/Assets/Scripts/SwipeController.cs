@@ -4,40 +4,92 @@ using UnityEngine.EventSystems;
 
 public class SwipeController : MonoBehaviour, IEndDragHandler
 {
-    [SerializeField] int maxPage;
-    int currentPage;
-    Vector3 targetPos;
-    [SerializeField] Vector3 pageStep;
-    [SerializeField] RectTransform levelPagesRect;
+    [SerializeField] bool inFarm = true;
+    [SerializeField] bool inShop = false;
+    [SerializeField] bool inCave = false;
+
+    [SerializeField] int totalFarms;
+    [SerializeField] int currentFarm;
+    [SerializeField] Vector3 targetPos;
+    [SerializeField] Vector3 horizontalStep;
+    [SerializeField] Vector3 verticalStep;
+    [SerializeField] RectTransform scrollViewRect;
 
     [SerializeField] float tweenTime;
     [SerializeField] LeanTweenType tweenType;
     float dragThreshould;
     LTDescr tween;
 
+    [SerializeField] RectTransform shopRect;
+    [SerializeField] RectTransform caveRect;
+
     void Awake()
     {
-        currentPage = 1;
-        targetPos = levelPagesRect.localPosition;
+        currentFarm = 1;
+        targetPos = scrollViewRect.localPosition;
         dragThreshould = Screen.width / 3;
     }
 
-    public void Next()
+    public void SwipeLeft()
     {
-        if(currentPage < maxPage)
+        if(currentFarm < totalFarms && inFarm)
         {
-            currentPage++;
-            targetPos += pageStep;
+            currentFarm++;
+            targetPos += horizontalStep;
+            shopRect.position -= new Vector3(-1180, 0, 0);
+            caveRect.position -= new Vector3(-1180, 0, 0);
             MovePage();
         }
     }
 
-    public void Previous()
+    public void SwipeRight()
     {
-        if(currentPage > 1)
+        if(currentFarm > 1 && inFarm)
         {
-            currentPage--;
-            targetPos -= pageStep;
+            currentFarm--;
+            targetPos -= horizontalStep;
+            shopRect.position -= new Vector3(1180, 0, 0);
+            caveRect.position -= new Vector3(1180, 0, 0);
+            MovePage();
+        }
+    }
+
+    public void SwipeDown()
+    {
+        if(!inFarm)
+        {
+            if(inCave)
+            {
+                inCave = false;
+                inShop = true;
+            }
+            else if(inShop)
+            {
+                inShop = false;
+                inFarm = true;
+            }
+
+            targetPos += verticalStep;
+            MovePage();
+        }
+    }
+
+    public void SwipeUp()
+    {
+        if(!inCave)
+        {
+            if(inFarm)
+            {
+                inFarm = false;
+                inShop = true;
+            }
+            else if(inShop)
+            {
+                inShop = false;
+                inCave = true;
+            }
+
+            targetPos -= verticalStep;
             MovePage();
         }
     }
@@ -46,15 +98,25 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
     {
         if(tween != null)
             tween.reset();
-        tween = levelPagesRect.LeanMoveLocal(targetPos, tweenTime).setEase(tweenType);
+        tween = scrollViewRect.LeanMoveLocal(targetPos, tweenTime).setEase(tweenType);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         if(Mathf.Abs(eventData.position.x - eventData.pressPosition.x) > dragThreshould)
         {
-            if(eventData.position.x > eventData.pressPosition.x) Previous();
-            else Next();
+            if(eventData.position.x > eventData.pressPosition.x) SwipeRight();
+            else SwipeLeft();
+        }
+        else
+        {
+            MovePage();    
+        }
+        
+        if(Mathf.Abs(eventData.position.y - eventData.pressPosition.y) > dragThreshould)
+        {
+            if(eventData.position.y > eventData.pressPosition.y) SwipeUp();
+            else SwipeDown();
         }
         else
         {
