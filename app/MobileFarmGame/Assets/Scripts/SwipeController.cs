@@ -20,14 +20,26 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
     float dragThreshould;
     LTDescr tween;
 
-    [SerializeField] RectTransform shopRect;
-    [SerializeField] RectTransform caveRect;
+    [SerializeField] RectTransform farmShopCaveRect, farm1Rect, farm2Rect, farm3Rect, farm4Rect, farm5Rect, shopRect, caveRect;
 
     void Awake()
     {
         currentFarm = 1;
         targetPos = scrollViewRect.localPosition;
         dragThreshould = Screen.width / 3;
+        horizontalStep = new Vector3(-Screen.width, 0, 0);
+        verticalStep = new Vector3(0, -Screen.height, 0);
+
+        farmShopCaveRect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        farm1Rect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        farm2Rect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        farm3Rect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        farm4Rect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        farm5Rect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        shopRect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        caveRect.sizeDelta = new Vector2(Screen.width, Screen.height);
+        shopRect.position = new Vector3(farm1Rect.position.x, farm1Rect.position.y - Screen.height, 0);
+        caveRect.position = new Vector3(farm1Rect.position.x, farm1Rect.position.y - Screen.height * 2, 0);
     }
 
     public void SwipeLeft()
@@ -36,8 +48,8 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
         {
             currentFarm++;
             targetPos += horizontalStep;
-            shopRect.position -= new Vector3(-1180, 0, 0);
-            caveRect.position -= new Vector3(-1180, 0, 0);
+            shopRect.position -= new Vector3(-Screen.width, 0, 0);
+            caveRect.position -= new Vector3(-Screen.width, 0, 0);
             MovePage();
         }
     }
@@ -48,8 +60,8 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
         {
             currentFarm--;
             targetPos -= horizontalStep;
-            shopRect.position -= new Vector3(1180, 0, 0);
-            caveRect.position -= new Vector3(1180, 0, 0);
+            shopRect.position -= new Vector3(Screen.width, 0, 0);
+            caveRect.position -= new Vector3(Screen.width, 0, 0);
             MovePage();
         }
     }
