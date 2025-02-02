@@ -514,7 +514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &437301656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &486019371
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1798,7 +1798,7 @@ MonoBehaviour:
   horizontalStep: {x: -4196, y: 0, z: 0}
   verticalStep: {x: 0, y: -4196, z: 0}
   scrollViewRect: {fileID: 936686637}
-  tweenTime: 0.4
+  tweenTime: 0.2
   tweenType: 9
   farmShopCaveRect: {fileID: 1417690207}
   farm1Rect: {fileID: 826073657}
@@ -2201,7 +2201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
-  m_DragThreshold: 10
+  m_DragThreshold: 1
 --- !u!4 &1561847819
 Transform:
   m_ObjectHideFlags: 0

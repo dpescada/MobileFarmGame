@@ -15,4 +15,3 @@ C:\Program Files\Unity Projects\MobileFarmGame\app\MobileFarmGame\Library\Bee\An
 C:\Program Files\Unity Projects\MobileFarmGame\app\MobileFarmGame\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAConfigurationCallbacks.h
 C:\Program Files\Unity Projects\MobileFarmGame\app\MobileFarmGame\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAKeyEventCallbacks.h
 C:\Program Files\Unity Projects\MobileFarmGame\app\MobileFarmGame\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAMotionEventCallbacks.h
-C:\Program Files\Unity Projects\MobileFarmGame\app\MobileFarmGame\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\UnitySwappyWrapper.h

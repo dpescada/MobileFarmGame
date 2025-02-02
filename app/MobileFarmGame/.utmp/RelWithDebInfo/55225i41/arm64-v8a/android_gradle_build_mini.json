@@ -1,7 +1,6 @@
 {
   "buildFiles": [
     "C:\\Program Files\\Unity Projects\\MobileFarmGame\\app\\MobileFarmGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "C:\\Program Files\\Unity Projects\\MobileFarmGame\\app\\MobileFarmGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\FramePacing\\CMakeLists.txt",
     "C:\\Program Files\\Unity Projects\\MobileFarmGame\\app\\MobileFarmGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\cpp\\GameActivity\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
@@ -23,12 +22,6 @@
       "artifactName": "game",
       "abi": "arm64-v8a",
       "output": "C:\\Program Files\\Unity Projects\\MobileFarmGame\\app\\MobileFarmGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\55225i41\\obj\\arm64-v8a\\libgame.so",
-      "runtimeFiles": []
-    },
-    "swappywrapper::@7e25bd1f32ce224db4e9": {
-      "artifactName": "swappywrapper",
-      "abi": "arm64-v8a",
-      "output": "C:\\Program Files\\Unity Projects\\MobileFarmGame\\app\\MobileFarmGame\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\55225i41\\obj\\arm64-v8a\\libswappywrapper.so",
       "runtimeFiles": []
     }
   }

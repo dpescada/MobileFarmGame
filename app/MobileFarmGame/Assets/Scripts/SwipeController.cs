@@ -17,18 +17,22 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
 
     [SerializeField] float tweenTime;
     [SerializeField] LeanTweenType tweenType;
-    float dragThreshould;
+    float dragThreshouldX;
+    float dragThreshouldY;
     LTDescr tween;
 
     [SerializeField] RectTransform farmShopCaveRect, farm1Rect, farm2Rect, farm3Rect, farm4Rect, farm5Rect, shopRect, caveRect;
 
     void Awake()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 120;
+        QualitySettings.vSyncCount = 0;
+        Screen.SetResolution(Screen.width, Screen.height, FullScreenMode.FullScreenWindow, new RefreshRate() { numerator = 120, denominator = 1 });
 
         currentFarm = 1;
         targetPos = scrollViewRect.localPosition;
-        dragThreshould = Screen.width / 3;
+        dragThreshouldX = Screen.width / 8;
+        dragThreshouldY = Screen.width / 4;
         horizontalStep = new Vector3(-Screen.width, 0, 0);
         verticalStep = new Vector3(0, -Screen.height, 0);
 
@@ -52,8 +56,8 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
             targetPos += horizontalStep;
             shopRect.position -= new Vector3(-Screen.width, 0, 0);
             caveRect.position -= new Vector3(-Screen.width, 0, 0);
-            MovePage();
         }
+        MovePage();
     }
 
     public void SwipeRight()
@@ -64,8 +68,8 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
             targetPos -= horizontalStep;
             shopRect.position -= new Vector3(Screen.width, 0, 0);
             caveRect.position -= new Vector3(Screen.width, 0, 0);
-            MovePage();
         }
+        MovePage();
     }
 
     public void SwipeDown()
@@ -84,8 +88,8 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
             }
 
             targetPos += verticalStep;
-            MovePage();
         }
+        MovePage();
     }
 
     public void SwipeUp()
@@ -104,20 +108,20 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
             }
 
             targetPos -= verticalStep;
-            MovePage();
         }
+        MovePage();
     }
 
     void MovePage()
     {
-        if(tween != null)
-            tween.reset();
+        // if(tween != null)
+        //     tween.reset();
         tween = scrollViewRect.LeanMoveLocal(targetPos, tweenTime).setEase(tweenType);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if(Mathf.Abs(eventData.position.x - eventData.pressPosition.x) > dragThreshould)
+        if(Mathf.Abs(eventData.position.x - eventData.pressPosition.x) > dragThreshouldX)
         {
             if(eventData.position.x > eventData.pressPosition.x) SwipeRight();
             else SwipeLeft();
@@ -127,7 +131,7 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
             MovePage();    
         }
         
-        if(Mathf.Abs(eventData.position.y - eventData.pressPosition.y) > dragThreshould)
+        if(Mathf.Abs(eventData.position.y - eventData.pressPosition.y) > dragThreshouldY)
         {
             if(eventData.position.y > eventData.pressPosition.y) SwipeUp();
             else SwipeDown();
