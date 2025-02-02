@@ -24,6 +24,8 @@ public class SwipeController : MonoBehaviour, IEndDragHandler
 
     void Awake()
     {
+        Application.targetFrameRate = 60;
+
         currentFarm = 1;
         targetPos = scrollViewRect.localPosition;
         dragThreshould = Screen.width / 3;
