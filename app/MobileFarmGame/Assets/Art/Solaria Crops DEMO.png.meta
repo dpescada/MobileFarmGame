@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: e59b7041c337b2945a698a11964e0a35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4067331649436871237
+    second: Solaria Crops DEMO_0
+  - first:
+      213: -8891576911292042033
+    second: Solaria Crops DEMO_1
+  - first:
+      213: 3989102433688500459
+    second: Solaria Crops DEMO_2
+  - first:
+      213: -301230590586860282
+    second: Solaria Crops DEMO_3
+  - first:
+      213: -4764451855761610375
+    second: Solaria Crops DEMO_4
+  - first:
+      213: 1879237024195738077
+    second: Solaria Crops DEMO_5
+  - first:
+      213: 4391672357255245482
+    second: Solaria Crops DEMO_6
+  - first:
+      213: 891485745308444183
+    second: Solaria Crops DEMO_7
+  - first:
+      213: -7469195305089863364
+    second: Solaria Crops DEMO_8
+  - first:
+      213: -7258674375630389592
+    second: Solaria Crops DEMO_9
+  - first:
+      213: 6961537510691747046
+    second: Solaria Crops DEMO_10
+  - first:
+      213: 4292933438375630853
+    second: Solaria Crops DEMO_11
+  - first:
+      213: -2770800535949366151
+    second: Solaria Crops DEMO_12
+  - first:
+      213: -5247447911279970617
+    second: Solaria Crops DEMO_13
+  - first:
+      213: -1427710858036387656
+    second: Solaria Crops DEMO_14
+  - first:
+      213: 4930985891065261232
+    second: Solaria Crops DEMO_15
+  - first:
+      213: -9142778058182660815
+    second: Solaria Crops DEMO_16
+  - first:
+      213: -3106573937396222585
+    second: Solaria Crops DEMO_17
+  - first:
+      213: 8061117739972333806
+    second: Solaria Crops DEMO_18
+  - first:
+      213: 6162939709196801785
+    second: Solaria Crops DEMO_19
+  - first:
+      213: -8696572977069464966
+    second: Solaria Crops DEMO_20
+  - first:
+      213: 5098062421479448149
+    second: Solaria Crops DEMO_21
+  - first:
+      213: -4281554053572643623
+    second: Solaria Crops DEMO_22
+  - first:
+      213: -2386114620247520785
+    second: Solaria Crops DEMO_23
+  - first:
+      213: -8546230161675752023
+    second: Solaria Crops DEMO_24
+  - first:
+      213: 3797183690625691949
+    second: Solaria Crops DEMO_25
+  - first:
+      213: -2490581037036288896
+    second: Solaria Crops DEMO_26
+  - first:
+      213: 5566177266855430529
+    second: Solaria Crops DEMO_27
+  - first:
+      213: -385372244569399975
+    second: Solaria Crops DEMO_28
+  - first:
+      213: 1285351960920138316
+    second: Solaria Crops DEMO_29
+  - first:
+      213: -2493923971883283596
+    second: Solaria Crops DEMO_30
+  - first:
+      213: -6626786819195914750
+    second: Solaria Crops DEMO_31
+  - first:
+      213: 2226382646746492938
+    second: Solaria Crops DEMO_32
+  - first:
+      213: 5872789582799331108
+    second: Solaria Crops DEMO_33
+  - first:
+      213: 323144934045119662
+    second: Solaria Crops DEMO_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a6364e590127830800000000000000
+      internalID: 4067331649436871237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 89
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc47f55a8e5ca9480800000000000000
+      internalID: -8891576911292042033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 102
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be836ac37832c5730800000000000000
+      internalID: 3989102433688500459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 102
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dc694bf50d1dbf0800000000000000
+      internalID: -301230590586860282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979e0e3c74441edb0800000000000000
+      internalID: -4764451855761610375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 102
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9f2fbed14641a10800000000000000
+      internalID: 1879237024195738077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 102
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaee918adba52fc30800000000000000
+      internalID: 4391672357255245482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 98
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7162f63ef813f5c00800000000000000
+      internalID: 891485745308444183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c317a1a8176185890800000000000000
+      internalID: -7469195305089863364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 99
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aef15c0d12044b90800000000000000
+      internalID: -7258674375630389592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 83
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4b65f6b795c9060800000000000000
+      internalID: 6961537510691747046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 99
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50896ce9730939b30800000000000000
+      internalID: 4292933438375630853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 83
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ca647c7932c89d0800000000000000
+      internalID: -2770800535949366151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6bac64de15d27b0800000000000000
+      internalID: -5247447911279970617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 71
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0e5c8f980cf2ce0800000000000000
+      internalID: -1427710858036387656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 70
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc686dda816e6440800000000000000
+      internalID: 4930985891065261232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d69cdebc35e1180800000000000000
+      internalID: -9142778058182660815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785f209967b33e4d0800000000000000
+      internalID: -3106573937396222585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee096a7ffd7dedf60800000000000000
+      internalID: 8061117739972333806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f613da4309278550800000000000000
+      internalID: 6162939709196801785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72638a24f09f4780800000000000000
+      internalID: -8696572977069464966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55edc0bf2c4ffb640800000000000000
+      internalID: 5098062421479448149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d43b2ed54dd494c0800000000000000
+      internalID: -4281554053572643623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 38
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9c7c22561d2eed0800000000000000
+      internalID: -2386114620247520785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 38
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad6694a2f0b56980800000000000000
+      internalID: -8546230161675752023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 36
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21b6a2c27e42b430800000000000000
+      internalID: 3797183690625691949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084c0231ebdaf6dd0800000000000000
+      internalID: -2490581037036288896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189c5cbbbb80f3d40800000000000000
+      internalID: 5566177266855430529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 7
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d55204cf1e6aaf0800000000000000
+      internalID: -385372244569399975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 7
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c422ff16ccc76d110800000000000000
+      internalID: 1285351960920138316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 7
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bc0176c5dc36dd0800000000000000
+      internalID: -2493923971883283596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 7
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20636978f7ce804a0800000000000000
+      internalID: -6626786819195914750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 7
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a003b69a833b5ee10800000000000000
+      internalID: 2226382646746492938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f5e5b9207508150800000000000000
+      internalID: 5872789582799331108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solaria Crops DEMO_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4f9bcfa9a0c7400800000000000000
+      internalID: 323144934045119662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1117aa0e904c9f248b95da448acbd0ff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Solaria Crops DEMO_0: 4067331649436871237
+      Solaria Crops DEMO_1: -8891576911292042033
+      Solaria Crops DEMO_10: 6961537510691747046
+      Solaria Crops DEMO_11: 4292933438375630853
+      Solaria Crops DEMO_12: -2770800535949366151
+      Solaria Crops DEMO_13: -5247447911279970617
+      Solaria Crops DEMO_14: -1427710858036387656
+      Solaria Crops DEMO_15: 4930985891065261232
+      Solaria Crops DEMO_16: -9142778058182660815
+      Solaria Crops DEMO_17: -3106573937396222585
+      Solaria Crops DEMO_18: 8061117739972333806
+      Solaria Crops DEMO_19: 6162939709196801785
+      Solaria Crops DEMO_2: 3989102433688500459
+      Solaria Crops DEMO_20: -8696572977069464966
+      Solaria Crops DEMO_21: 5098062421479448149
+      Solaria Crops DEMO_22: -4281554053572643623
+      Solaria Crops DEMO_23: -2386114620247520785
+      Solaria Crops DEMO_24: -8546230161675752023
+      Solaria Crops DEMO_25: 3797183690625691949
+      Solaria Crops DEMO_26: -2490581037036288896
+      Solaria Crops DEMO_27: 5566177266855430529
+      Solaria Crops DEMO_28: -385372244569399975
+      Solaria Crops DEMO_29: 1285351960920138316
+      Solaria Crops DEMO_3: -301230590586860282
+      Solaria Crops DEMO_30: -2493923971883283596
+      Solaria Crops DEMO_31: -6626786819195914750
+      Solaria Crops DEMO_32: 2226382646746492938
+      Solaria Crops DEMO_33: 5872789582799331108
+      Solaria Crops DEMO_34: 323144934045119662
+      Solaria Crops DEMO_4: -4764451855761610375
+      Solaria Crops DEMO_5: 1879237024195738077
+      Solaria Crops DEMO_6: 4391672357255245482
+      Solaria Crops DEMO_7: 891485745308444183
+      Solaria Crops DEMO_8: -7469195305089863364
+      Solaria Crops DEMO_9: -7258674375630389592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
