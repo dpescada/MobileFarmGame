@@ -1,52 +1,29 @@
+potential names: tower farm
+
+goal of the game: defeat final boss on floor 100 (have infinite bosses though, procedurally generated)
+to do so, kill boss on each layer of tower to ascend, rewards for killing each boss
+to kill boss, need to be strong enough
 
 
+cave on bottom
+then shop
+then farm on top
+enter the tower button should be in the shop
+
+need to figure out how the boss fights will work
+click on boss with finger to deal damage, or
+equip npcs with gear to create an army that will fight
+
+new idea: 
+3 crop farms, each with own (different) upgrades/skill trees
+can plant seeds and normal foods on it
+potion "farm", cauldrons to brew in
 
 make prototype to see if its even fun
 
 ------------FARMS:
 each farm has its own benefit, later farms aren't necessarily better, might have more valuable crops but longer grow time, might not have anything valuable to grow and sell but need it for certain upgrades
 or you can buy them in any order, each has needs specific something to be unlocked so each player unlocks different farms at different times
-
-CROPS:
-
-ORES:
-
-ANIMALS (only 4 but diff rarities)?:
-
-FISH:
-
-FOOD:
-
-POTIONS:
-
-TOOLS/WEAPONS:
-
-STATUES (npc characters):
-
-
-TOOLS / WEAPONS:
-battle axe, knife, sword, trident, bow, crossbow, fishing rod, fireworks, pickaxe, hoe, shovel, axe, shield, helmet, boots, arrow, bomb, armor
-
-COSMETICS:
-rings, necklace, boots, helmet, socks, shoes, shirt
-
-ORE:
-stone, copper, gold, iron, tin, aluminum, obsidian, ruby, emerald, diamond, sapphire, amethyst, coal
-
-CROPS:
-grass, mushrooms, carrots, potatoes, beets, wheat, tomato, pumpkin, cabbage, corn, honey, flowers, trees, bamboo, rice
-
-OTHER:
-slimes, other creatures and animals, mystery meat, rainbows, bones, feather, leather, ink, eyes,
-
-FOOD:
-cake, cola, bread, pie, cookie, soup, milk, pasta, burger, pizza, fries, fish, meat, slop, chocolate, ice cream
-
-MAGIC:
-sun, moon, potions, heart, cursed, blood, electric, fire, water, poison, earth, ice, void, music, bubble, glow, 
-
-TECH:
-pc, phone, mic,
 
 
 procedurally generated caves, contains things you can mine and sell, has enemies that you tap on to kill to also get drops. cannot go back to previous caves. caves are random so later caves aren't necessarily better, will have better upgrades later on tho so it will feel like they are better. cant move on to next cave until find entrance hidden under a rock or something. sometimes hidden under something difficult to break so you need to buy specific tools like bombs or stronger pickaxe or a key. caves should be easy to clean so you can grind through them super fast and should be satisfying. caves can have chests that have super valuable stuff. caves are main way of getting seeds. different biomes of caves have different types of seeds, each biome matches one of the farms.
@@ -57,8 +34,12 @@ to simplify things, 1 in game currency = 1 xp so you level up by selling stuff
 
 cool idea for song: same song(s) for cave, shop, and farms, but the tempo and/or pitch changes in each
 
+once you sell an item in the shop, its unlocked and you are able to purchase it
+
 game should have very fast progression but tons to do so it still takes a decent amount of time to beat the game, 
 should have an actual ending to the "story" and then show stats at end like how much time (in game), total money, etc.
+
+slide all UI up with tween when opening upgrade menu for farm, top UI should slide off screen to make more room for upgrade menu, only upgrade menu with farm above on screen
 
 ----------UPGRADES:
 
@@ -78,6 +59,7 @@ SPECIFIC FARM:
 increase farm size
 improve soil, crops grow faster
 improve quality, crops have better chance of higher rarity dropping
+dont have to water
 
 
 CAVE:
@@ -103,3 +85,8 @@ npcs ask for specific things you need to help with, mostly giving specific item 
 main quest give big rewards and are mandatory to unlock certain things
 side quests just for quick cash or extra items
 
+
+for game balancing, 
+-make an algorithm to automatically play and/or simulate the game to determine correct values based on time
+-add time estimates for how long it should take to complete each "section" of the game
+-play game sped up (5x crop grow speed, 5x money, etc) and play through entire game multiple times in different ways to test everything and different strategies
