@@ -1,2 +1,10 @@
 mobile farm todo:
 make overall item class and mess around with inheritance
+make rough draft of item class and plan out how everything will work and be coded
+watch video on scriptable objects, inventory system, save system, localization
+
+
+make multiple "button" classes that has different functionality based on what is stored inside it
+
+plot button:
+attributes: bool emptySpace, plot image, crop image, bool watered, string cropPlanted, float timeUntilHarvest, float growTimer, bool grown,

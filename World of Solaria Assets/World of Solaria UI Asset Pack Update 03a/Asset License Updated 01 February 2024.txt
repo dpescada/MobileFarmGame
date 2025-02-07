@@ -1,0 +1,51 @@
+Jamie Brownhill/World of Solaria Game Asset Licence Agreement
+
+By purchasing or downloading the assets associated with this licence agreement ("Agreement"), you ("The Licensee") agree to the following terms and conditions:
+
+1) Definitions
+Adapted Material: Any asset modified, translated, arranged, transformed, or otherwise altered.
+Agreement: This complete document and its conditions.
+Assets: All purchased files, artwork, or materials covered by this Licence.
+Authorship: The originating creator of the assets.
+Commercial Media Product: A media product intended for revenue generation.
+Intellectual Property: All copyrights, patents, trademarks, and trade secrets pertaining to the assets, owned by Licensor (Jamie Brownhill).
+Licence: The terms outlined in this Agreement governing use of the assets.
+Media Product: Encompasses video games, software, applications, videos, streaming content, and personal websites.
+Non-Commercial Media Product: A media product created and operated without intention or capacity for revenue generation.
+Promotional Material: Any material designed to enhance public awareness or sales of a media product (e.g., trailers, artwork, gameplay videos).
+Licensee: You, the individual who acquired the assets from Licensor.
+Licensor: Jamie Brownhill, the individual licensing the assets covered by this Agreement.
+
+2) Terms of Agreement
+
+a. Grant of Licence:
+
+1.Licence is effective from the date of purchase or download (for free assets).
+2.Licence is granted for unlimited use within media products (commercial and non-commercial) and related promotional materials.
+3.Termination of the licence occurs only upon breach of Agreement by the Licensee. Upon termination, Licensee must remove all traces of assets, including adapted materials, from all computers, storage devices, media products and promotional materials, as well as from any redistributed media products or promotional materials.
+
+b. Licence Conditions:
+
+1. The use of these assets is permitted solely within the realm of media products and their associated promotional materials.
+2. Modification of the assets is allowed, with the resulting adapted materials being subject to the entirety of this Agreement. Any updates or additions made to the assets shall be governed by the provisions of this Agreement.
+3. Reselling, redistribution, sublicensing, or transferring of the assets is prohibited. Any violation of this prohibition shall result in the immediate revocation of the licence for all current and future uses, with no refunds being issued.
+4. The use of these assets in any web3, NFT, cryptocurrency or blockchain project is prohibited. Any violation of this prohibition shall result in the immediate revocation of the licence for all current and future uses, with no refunds being issued.
+5. The use of these assets in any AI/machine learning project, or for any AI training is prohibited. Any violation of this prohibition shall result in the immediate revocation of the licence for all current and future uses, with no refunds being issued.
+6. The Licensee agrees to grant proper credit to the Licensor where due and shall not misrepresent the ownership or authorship of the work or assets.
+
+3) Ownership Rights
+
+a. All rights, title, and interest in the assets and adapted materials, including all intellectual property rights therein, remain solely and exclusively with the Licensor. The purchase of this Licence grants the Licensee a non-transferable, non-exclusive Licence to use the assets and adapted materials, but does not confer any ownership rights whatsoever.
+
+b. In the event that any provision of this Agreement is held to be invalid or unenforceable, that provision will be struck and all remaining provisions will continue to be in effect.
+
+4) Modification of the Agreement
+
+a. The Licensor reserves the right to modify or amend this Agreement at any time without prior notice to the Licensee. However, any such modifications or amendments shall not have retroactive effect and shall only apply to future purchases or downloads of the Assets made by the Licensee after the effective date of such modifications or amendments.
+
+b. The Licensee is not permitted to modify any part of this agreement. If the Licensee has any questions regarding the agreement before purchase, they should contact the Licensor at jamiebrownhill85@gmail.com
+
+The latest version of the license terms can be found at: https://solarialicence.carrd.co/
+It can also be found on the individual product pages for every Solaria asset pack hosted on itch.io.
+
+Updated on February 01, 2024
